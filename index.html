@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--This is the page title-->
+<title>Maria Duan|Student Page</title>
+
+<!--Add style-->
+<style>
+	body{
+		background-image: url("background.png");
+		background-size: cover;
+	}
+
+	em{
+		background-color: darkseagreen;
+		color: darkslategray;
+		padding: 10px;
+	}
+
+	.photography{
+		height: 200px;
+		width: auto;
+	}
+
+	#content{
+		width: 920px;
+		margin: 0px auto;
+		background-color: Gainsboro;
+	}
+
+	#header{
+		text-align: center;
+		background-color: Grey;
+		padding: 10px;
+	}
+
+	.column1{
+		float: left;
+		width: 430px;
+		padding: 15px;
+	}
+
+	.column2{
+		float: right;
+		width: 430px;
+		padding: 15px;
+	}
+
+	.clearfloat{clear: both;}
+
+	.column3{
+		float: left;
+		width: 430px;
+		height: 250px;
+		padding: 15px;
+		background-color: SlateGrey;
+	}
+
+	.column4{
+		float: right;
+		width: 430px;
+		height: 250px;
+		padding: 15px;
+		background-color: SlateGrey;
+	}
+
+	/* Mobile – Screen Sizes ≤ 767px */
+	@media (max-width: 767px) {
+		.column1, .column2, .column3, .column4 {
+			float: none;
+			width: 640px;
+		}
+
+		#content {
+			width: 670px;
+		}
+	}
+
+</style>
+</head>
+
+<body>
+<div id="content">
+<div id="header">
+	<!--My name-->
+	<h1>Maria Duan</h1>
+
+	<!--Adding paragraphs-->
+	<p>My USC Email Address: <a href="mailto:yumengdu@usc.edu">yumengdu@usc.edu</a></p>
+</div><!--close header div-->
+
+
+<div id="wrapper-body">
+<div class="column1">
+	<p>Favorite color: <em>DarkSeaGreen</em></p>
+	<p>Favorite website: <a href="https://www.youtube.com/" target="_blank">YouTube</a></p>
+	
+	<!--Adding headers-->
+	<h2>Favorite activity: photography</h2>
+	<img class="photography" src="photo2.jpg" alt="photo"/>
+</div><!--close column1 div-->
+
+<div class="column2">
+	<h3>School Schedule</h3>
+	<ol>
+		<li>ITP104 Introduction to Web Development</li>
+		<li>ITP115 Programming in Python</li>
+		<li>EASC150 East Asian Societies</li>
+		<li>HBIO200 The Human Animal</li>
+		<li>GESM110 Seminar in the Arts: Musical History of East Asia</li>	
+	</ol>
+</div><!--close column2 div-->
+</div><!--close wrapper-body div-->
+
+<div class="clearfloat"></div>
+
+<div id="wrapper-footer">
+<div class="column3">
+	<h3>Assignments</h3>
+	<ul>
+		<li><a href="assignment01/index.html" target="_blank">Assignment 01: Web Resume</a></li>
+		<li><a href="Assignment02/index.html" target="_blank">Assignment 02: TV Show/Movie Article</a></li>
+		<li><a href="assignment03/index.html" target="_blank">Assignment 03: Two-Column TV Show/Movie Article</a></li>
+		<li><a href="assignment04/index.html" target="_blank">Assignment 04: Calendar</a></li>
+		<li><a href="assignment05/index.html" target="_blank">Assignment 05: TV Show/Movie Photo Collage</a></li>
+		<li><a href="assignment06/index.html" target="_blank">Assignment 06: Advanced TV Show/Movie Photo Collage</a></li>
+		<li><a href="assignment07/index.html" target="_blank">Assignment 07: Final Project Proposal</a></li>
+	</ul>
+
+</div><!--close column3 div-->
+
+<div class="column4">
+	<h3>Labs</h3>
+	<ul>
+		<li><a href="Lab02/index.html" target="_blank">Lab 02: Student Page</a></li>
+		<li><a href="Lab03/index.html" target="_blank">Lab 03: Updated Resume</a></li>
+		<li><a href="Lab04/index.html" target="_blank">Lab 04: Student Layout Page</a></li>
+		<li><a href="Lab05/index.html" target="_blank">Lab 05: Form Page</a></li>
+		<li><a href="Lab06/index.html" target="_blank">Lab 06: Simple Photo Gallery</a></li>		
+		<li><a href="Lab07/index.html" target="_blank">Lab 07: Image Puzzle</a></li>
+		<li><a href="Lab08/index.html" target="_blank">Lab 08: Responsive Student Page</a></li>
+		<li><a href="Lab09/index.html" target="_blank">Lab 09: Page With Media</a></li>
+		<li><a href="Lab10/index.html" target="_blank">Lab 10: Animation</a></li>
+	</ul>
+	
+</div><!--close column4 div-->
+</div><!--close wrapper-footer div-->
+</div><!--close content div-->
+
+</body>
+</html>
